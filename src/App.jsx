@@ -10,14 +10,16 @@ import ScrollToTop from "./pages/ScrollToTop";
 
 const App = () => {
 	return (
-		<>
+		<div className="app-background">
 			<NavBar />
 			<Home />
 			<Service />
 			<Plans />
 			<ScrollToTop />
 			<Footer />
-		</>
+		</div>
+			
+		
 	);
 };
 

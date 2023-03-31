@@ -7,7 +7,7 @@ const NavBar = () => {
 	const [expand, updateExpanded] = useState(false);
 	return(
 		<>
-			<Navbar bg="dark" variant="dark" expanded={expand} fixed="top" expand="md">
+			<Navbar bg="dark" variant="dark" expanded={expand} fixed="top" expand="sm">
 				<Container className="container">
 					<Navbar.Toggle 
 						aria-controls="responsive-navbar-nav"

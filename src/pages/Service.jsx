@@ -8,6 +8,7 @@ import CrossTraining from "../images/crosstraining.jpg";
 import AulaBoxe from "../images/boxe1.jpg";
 import Kickboxing from "../images/kickboxer.jpg";
 import JiuJitsu from "../images/jiu.jpg";
+import Matpilate from "../images/matpilate.jpg"
 
 
 const Service = () => {
@@ -23,7 +24,7 @@ const Service = () => {
 				<div className="container mx-auto " style={{paddingTop: "150px", paddingBottom: "100px"}}>
 					<Row xs={1} md={3} className="g-5" style={{ justifyContent: "center"}}>
 						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-							<Card className="Service" border="primary">
+							<Card className="Service" border="white">
 								<Card.Img className="Service-img" variant="top" src={Musculacao}/>
 								<Card.Body>
 									<Card.Title className="card-title">Musculação</Card.Title>
@@ -31,7 +32,7 @@ const Service = () => {
 							</Card>
 						</Col>
 						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-							<Card className="Service" border="primary">
+							<Card className="Service" border="white">
 								<Card.Img className="Service-img" variant="top" src={AulaBoxe}/>
 								<Card.Body>
 									<Card.Title className="card-title">Aulas de Boxe</Card.Title>
@@ -39,7 +40,7 @@ const Service = () => {
 							</Card>
 						</Col> 
 						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-							<Card className="Service" border="primary">
+							<Card className="Service" border="white">
 								<Card.Img className="Service-img" variant="top" src={CrossTraining}/>
 								<Card.Body>
 									<Card.Title className="card-title">Cross Training</Card.Title>
@@ -48,7 +49,7 @@ const Service = () => {
 						</Col>
 						
 						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-							<Card className="Service" border="primary">
+							<Card className="Service" border="white">
 								<Card.Img className="Service-img" variant="top" src={Kickboxing}/>
 								<Card.Body>
 									<Card.Title className="card-title">Aulas de Kickboxing</Card.Title>
@@ -57,10 +58,18 @@ const Service = () => {
 						</Col>
 						
 						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-							<Card className="Service" border="primary">
+							<Card className="Service" border="white">
 								<Card.Img className="Service-img" variant="top" src={JiuJitsu}/>
 								<Card.Body>
 									<Card.Title className="card-title">Aulas de Jiu-Jitsu</Card.Title>
+								</Card.Body>
+							</Card>
+						</Col>
+						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+							<Card className="Service" border="white">
+								<Card.Img className="Service-img" variant="top" src={Matpilate}/>
+								<Card.Body>
+									<Card.Title className="card-title">Mat Pilates</Card.Title>
 								</Card.Body>
 							</Card>
 						</Col>

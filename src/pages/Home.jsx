@@ -11,8 +11,8 @@ const Home = () => {
 			<div className="header_height sec_bg d-flex align-items-center">
 				<div className="container">
 					<div className="home">
-						<h1 className="hdrcolor" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">ACADEMIA RITMO</h1>
-						<p className="home-paragrafo" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">Sua saúde é a nossa história.</p>
+						<h1 className="hdrcolor" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">PROFIT ACADEMIA</h1>
+						{/* <p className="home-paragrafo" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">Sua saúde é a nossa história.</p> */}
 					</div>
 				</div>
 			</div>
