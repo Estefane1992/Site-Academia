@@ -49,6 +49,10 @@ const Plans = () => {
                         </Card>
                     </Col>
                 </Row>
+                <div className="mb-5 text-center">
+					<p className="service-paragraph" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Para saber mais sobre valores e detalhes dos planos, entre em contato conosco.</p>
+					
+				</div>
 			</div>
 		</section>
     )

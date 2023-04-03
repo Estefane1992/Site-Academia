@@ -12,7 +12,6 @@ const Home = () => {
 				<div className="container">
 					<div className="home">
 						<h1 className="hdrcolor" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">PROFIT ACADEMIA</h1>
-						{/* <p className="home-paragrafo" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">Sua saúde é a nossa história.</p> */}
 					</div>
 				</div>
 			</div>
@@ -33,13 +32,13 @@ const Home = () => {
 					<div className="col-md-4 col-lg-3 text-center" >
 						<div className="box_border position-relative rounded pt-5 pb-3 px-3" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="3000">
 							<p id="time" className="text-muted text-left text-xl-center text-lg-center time">SÁBADO <br/> <br/>
-							Aberto das 08:00h às 14:00h</p>
+							Aberto das 07:00h às 13:00h</p>
 						</div>
 					</div>
 					<div className="col-md-4 col-lg-3 text-center">
 						<div className="box_border position-relative rounded pt-5 pb-3 px-3" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="3000">
 							<p id="time" className="text-muted text-left text-xl-center text-lg-center">DOMINGO <br/> <br/>
-							Aberto das 09:00 às 14:00h</p>
+							Aberto das 09:00 às 12:00h</p>
 						</div>
 					</div>
 				</div>

@@ -210,8 +210,11 @@ $white: #ffffff;
   color: $white;
   font-size: 20px;
   text-align: center !important;
- 
-
+}
+.service-paragraph{
+  color: $white;
+  font-size: 24px;
+  margin-top: 50px;
 }
 // SCROLL-UP
 .scroll-up {
@@ -227,7 +230,16 @@ $white: #ffffff;
   transition: 0.5s;
   font-weight: bolder;
 }
-
+.scroll-up:hover{
+  color: $orange;
+}
+.icons{
+ margin-right: 10px;
+}
+.icons:hover{
+  color: $orange !important;
+  
+}
 @media (max-width: 400px) {
   
   .hdrcolor{
