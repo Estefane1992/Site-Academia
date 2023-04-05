@@ -16,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 .app-background{
-  background-color: #17171c !important;
+  background-color: rgb(0, 0, 0) !important;
   
 }
 /* BUTTON-DEFAULT */
@@ -43,7 +43,7 @@ html {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: $white !important;
   font-size: 1em;
   font-weight: bold;
   padding-right: 0.5rem !important;
@@ -51,6 +51,9 @@ html {
 }
 .nav-link {
   padding: 0.8rem 1rem !important;
+}
+.nav-link:hover{
+  color: $orange !important;
 }
 
 footer {
@@ -192,18 +195,16 @@ $white: #ffffff;
 .background:hover{
   transform: scale(1.1);
 }
-.plans_box_border{
-  border: solid 1px $orange !important;
-}
+
 .card_subtitle{
-  color: $white !important;
+  color: $orange!important;
   font-size: 24px !important;
   font-weight: 600 !important;
+  
 }
 .card_benefit{
   color: $white;
   font-size: 20px !important;
-  font-weight: 600;
   text-align: center !important;
 }
 .text_description{
@@ -214,8 +215,54 @@ $white: #ffffff;
 .service-paragraph{
   color: $white;
   font-size: 24px;
-  margin-top: 50px;
+  margin-top: 100px;
+  
 }
+.plano1{
+  background-color: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/plans1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-clip: content-box;
+
+  
+}
+.plano2{
+  background-color: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/plans2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-clip: content-box;
+  
+  
+}
+.plano3{
+  background-color: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/plans3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-clip: content-box;
+ 
+  
+}
+.contato-telefone {
+  text-decoration: none;
+  font-size: 2em; 
+  color: $white;
+}
+.contato-telefone:hover{
+  color: $orange !important;
+}
+.font-icon{
+  font-size: 2em !important;
+  margin-right: 0.3em;
+  margin-bottom: 0.3em;
+  color: $white;
+}
+
 // SCROLL-UP
 .scroll-up {
   position: fixed;

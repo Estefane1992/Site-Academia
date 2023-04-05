@@ -2,7 +2,7 @@ import React from "react";
 import  Row from "react-bootstrap/Row";
 import Card  from "react-bootstrap/Card";
 import Col  from "react-bootstrap/Col";
-
+import { Phone } from "@material-ui/icons";
 
 
 const Plans = () => {
@@ -15,7 +15,7 @@ const Plans = () => {
 				</div>
                 <Row xs={1} md={3} className="g-5">
                     <Col className="card_plans"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                        <Card className="background">
+                        <Card className="background plano1" >
                             <Card.Body>
                                 <Card.Subtitle className="mb-3 text-center card_subtitle">PLANO</Card.Subtitle>
                                 <Card.Subtitle className="text-center card_subtitle">MENSAL</Card.Subtitle>
@@ -27,7 +27,7 @@ const Plans = () => {
                         </Card>
                     </Col>
                     <Col  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                        <Card className="background"> 
+                        <Card className="background plano2"> 
                             <Card.Body>
                                 <Card.Subtitle className="mb-3 text-center card_subtitle" >PLANO</Card.Subtitle>
                                 <Card.Subtitle className="text-center card_subtitle">TRIMESTRAL</Card.Subtitle>
@@ -38,7 +38,7 @@ const Plans = () => {
                         </Card>
                     </Col>
                     <Col  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                        <Card className="background">
+                        <Card className="background plano3">
                             <Card.Body>
                                 <Card.Subtitle className="mb-3 text-center card_subtitle">PLANO</Card.Subtitle>
                                 <Card.Subtitle className="text-center card_subtitle">SEMESTRAL</Card.Subtitle>
@@ -50,7 +50,8 @@ const Plans = () => {
                     </Col>
                 </Row>
                 <div className="mb-5 text-center">
-					<p className="service-paragraph" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Para saber mais sobre valores e detalhes dos planos, entre em contato conosco.</p>
+					<p className="service-paragraph" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Para saber mais sobre valores e detalhes dos planos, entre em contato conosco.</p><Phone className="font-icon"/><a className="contato-telefone" href="tel: 557134736303">(71) 34736303</a>
+                    
 					
 				</div>
 			</div>

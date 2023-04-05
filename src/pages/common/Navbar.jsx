@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container  from "react-bootstrap/Container";
+import { AddLocationOutlined } from "@material-ui/icons";
+
 
 const NavBar = () => {
 	const [expand, updateExpanded] = useState(false);
@@ -36,6 +38,11 @@ const NavBar = () => {
 							<Nav.Item>
 								<Nav.Link href="#planos">
 									Planos
+								</Nav.Link>
+							</Nav.Item>
+							<Nav.Item>
+								<Nav.Link href="https://goo.gl/maps/XZEKDEwwFL8Y2Fbq9" target="blank">
+									< AddLocationOutlined />
 								</Nav.Link>
 							</Nav.Item>
 						</Nav>

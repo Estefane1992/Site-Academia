@@ -47,7 +47,6 @@ const Service = () => {
 								</Card.Body>
 							</Card>
 						</Col>
-						
 						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 							<Card className="Service" border="white">
 								<Card.Img className="Service-img" variant="top" src={Kickboxing}/>
@@ -56,7 +55,6 @@ const Service = () => {
 								</Card.Body>
 							</Card>
 						</Col>
-						
 						<Col data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 							<Card className="Service" border="white">
 								<Card.Img className="Service-img" variant="top" src={JiuJitsu}/>
@@ -73,7 +71,6 @@ const Service = () => {
 								</Card.Body>
 							</Card>
 						</Col>
-						
 					</Row> 
 				</div>
 			</section>

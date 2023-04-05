@@ -20,7 +20,7 @@ const Home = () => {
 		<section> 
 			<div className="container mx-auto py-5" >
 				<div className="mb-4 text-center">
-					<p className="display-6 mb-1 section-home" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="3000">HORÁRIOS DE FUNCIONAMENTO</p>
+					<p className="display-6 mb-1 section-home" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">HORÁRIOS DE FUNCIONAMENTO</p>
 					
 				</div>
 				<div className="row gy-5 d-flex align-items-center justify-content-evenly mt-0">
